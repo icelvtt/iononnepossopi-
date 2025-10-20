@@ -1,3 +1,20 @@
 {
   "showSidebar": true
+  "title": "Your Site Title",
+  "description": "Your site description",
+  "nav": {
+    "logo": "krokoslogo.jpeg",           // Path to your logo file or external URL
+    "title": "Krokos",  // Site title displayed next to the logo
+    "links": [                     // Navigation links
+      {
+        "href": "/STILI",
+        "name": "Stili"
+      }
+    ]
+  },
+  "theme": {
+    "theme": "superstack",        // Optional official Flowershow theme
+    "defaultMode": "dark",
+    "showModeSwitch": true
+  }
 }
