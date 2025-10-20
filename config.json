@@ -1,36 +1,3 @@
 {
   "showSidebar": true
-  "title": "Your Site Title",
-  "description": "Your site description",
-  "favicon": "/path/to/favicon.png", // Path or an emoji, e.g. "🐶"
-  "nav": {
-    "logo": "krokoslogo.jpeg",           // Path to your logo file or external URL
-    "title": "Krokos",  // Site title displayed next to the logo
-    "links": [                     // Navigation links
-      {
-        "href": "/STILI",
-        "name": "Stili"
-      }
-    ],
-    "social": [                    // Social media links
-      {
-        "label": "github",
-        "name": "GitHub Profile",
-        "href": "https://github.com/icelvtt"
-      }
-    ]
-  },
-  "analytics": "G-XXXXXXXXXX",
-  "showComments": false,           // Disable comments site-wide (if you want to enable them only on specific pages)
-  "showSidebar": true,             // Show site map on the left,
-  "contentInclude": ["/blog", "README.md"],
-  "contentExclude": ["/blog/_archive"],
-  "theme": {
-    "theme": "superstack",        // Optional official Flowershow theme
-    "defaultMode": "dark",
-    "showModeSwitch": true
-  },
-  "redirects": [
-    { "from": "/blog/old-post", "to": "/blog/new-post" }
-  ]
 }
